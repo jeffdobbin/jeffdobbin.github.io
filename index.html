@@ -291,23 +291,12 @@
 
                         <div class="col-md-8 contact-form">
                             <h3>Send me a message</h3>
-                            <form class="ajax-form" id="contactForm" method="post" action="assets/php/contact.php">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your name..." value="" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your email..." value="" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="phone" class="form-control" id="phone" name="phone" placeholder="Your phone..." value="" required>
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" rows="4" name="message" placeholder="Your message..." required></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <button type="submit" name="submit" class="btn btn-default"><i class="fa fa-paper-plane fa-fw"></i> Send</button>
-                                </div>
-                            </form>
+                            <form method="POST" action="https://formspree.io/jeffdobbin@outlook.com">
+  <input type="name" name="name" placeholder="Your name...">
+  <input type="email" name="email" placeholder="Your email...">
+  <textarea name="message" placeholder="Your Message..."></textarea>
+  <button type="submit">Send</button>
+</form>
                         </div><!-- /.contact-form -->
 
                         <div class="col-md-4 contact-address">
