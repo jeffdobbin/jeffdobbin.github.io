@@ -1275,7 +1275,8 @@ ul.project-meta{
 
 .contact-form,
 .contact-address{
-    padding-top: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .contact-form .form-group{
