@@ -2032,6 +2032,7 @@ section{
 	.customer{padding: 75px 0 82px;}
 	.blog{padding: 75px 0 82px;}
 	.contact{padding: 75px 0 98px;}
+	h1 {color: white;}
 	/******************/
 	
 	
@@ -2058,4 +2059,5 @@ section{
 @media(max-width: 480px){
 	.fn_cs_about_modern .left_part{width: 100%;}
 	.fn_cs_info_items ul{flex-direction: column;}
+	h1 {color: white;}
 }
