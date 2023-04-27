@@ -2061,3 +2061,7 @@ section{
 	.fn_cs_info_items ul{flex-direction: column;}
 	h1 {color: white;}
 }
+
+.sidebar_in a {
+	text-decoration-color: #0E0907;
+}
