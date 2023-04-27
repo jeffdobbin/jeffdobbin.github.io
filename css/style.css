@@ -2059,3 +2059,7 @@ section{
 	.fn_cs_about_modern .left_part{width: 100%;}
 	.fn_cs_info_items ul{flex-direction: column;}
 }
+
+.sidebar_in a {
+	text-decoration-color: #0e090d;
+}
